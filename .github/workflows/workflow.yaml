@@ -26,8 +26,8 @@ jobs:
 
       # Oppgave 5: Kjører testene i prosjektet. Feiler jobben dersom tester feiler.
       - name: Run tests
-          npm run test
-          
+        run: npm run test
+
       # Oppgave 6: List ut npm dependencies med sårbarheter.
       #- name: Audit packages
       #run: npm audit
