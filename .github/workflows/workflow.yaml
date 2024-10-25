@@ -18,7 +18,7 @@ jobs:
       - name: Setup Node Environment
         uses: actions/setup-node@v4
         with:
-          node-version: 20
+          node-version: 20 
 
       # Oppgave 4: Installere dependencies
       - name: "npm install"
